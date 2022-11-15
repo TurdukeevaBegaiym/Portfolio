@@ -1,3 +1,8 @@
 * {
   box-sizing: border-box;
 }
+img{
+  max-width: 200px;
+  border: 8px solid tomato;
+  border-radius: 100%;
+}
