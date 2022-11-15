@@ -5,16 +5,24 @@ img{
   max-width: 200px;
   border: 8px solid rgb(177, 84, 68);
   border-radius: 100%;
+  margin-left:15px ;
+}
+h1{
+  margin-left: 50px;
 }
 h2 {
   font-size: 30px;
   font-family: 'Times New Roman', Times, serif;
   color: rgb(56, 53, 53);
+  margin-left: 15px;
+
 }
 p {
   font-size: 25px;
   font-family: 'Times New Roman', Times, serif;
   color:rgb(56, 53, 53) ;
+  margin-left: 15px;
+  
 }
 .btn {
   display: flex;
@@ -31,4 +39,27 @@ p {
 }
 .btn button:hover {
   background-color: rgb(177, 84, 68) ;
+}
+.aboutme h1 strong {
+  color: rgb(177, 84, 68);
+}
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -450px;
+  margin-left: 200px;
+
+}
+.aboutme button {
+  width: 150px;
+  height: 40px;
+  margin-top: 40px;
+  border: 5px solid white; 
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+}
+.aboutme button:hover {
+  background-color: rgb(177, 84, 68);
 }
