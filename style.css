@@ -3,6 +3,16 @@
 }
 img{
   max-width: 200px;
-  border: 8px solid tomato;
+  border: 8px solid rgb(177, 84, 68);
   border-radius: 100%;
+}
+h2 {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(56, 53, 53);
+}
+p {
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color:rgb(56, 53, 53) ;
 }
